@@ -9,13 +9,13 @@ namespace DataAccessLayer
     public class Yorum
     {
         public int ID { get; set; }
-        public int uyeID { get; set; }
-        public string uye { get; set; }
-        public int makaleID { get; set; }
-        public string makale { get; set; }
-        public int yoneticiID { get; set; }
-        public string yonetici { get; set; }
-        public string icerik { get; set; }
-        public bool durum { get; set; }
+        public int Makale_ID { get; set; }
+        public string Makale { get; set; }
+        public int Yonetici_ID { get; set; }
+        public string Yonetici { get; set; }
+        public int Uye_ID { get; set; }
+        public string Uye { get; set; }
+        public string Icerik { get; set; }
+        public bool Onay { get; set; }
     }
 }

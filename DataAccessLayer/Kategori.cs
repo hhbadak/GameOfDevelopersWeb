@@ -9,7 +9,7 @@ namespace DataAccessLayer
     public class Kategori
     {
         public int ID { get; set; }
-        public string isim { get; set; }
-        public bool silinmis { get; set; }
+        public string Isim { get; set; }
+        public bool Silinmis { get; set; }
     }
 }

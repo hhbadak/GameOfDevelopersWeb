@@ -9,13 +9,14 @@ namespace DataAccessLayer
     public class Yonetici
     {
         public int ID { get; set; }
-        public int yoneticiTurID { get; set; }
-        public string yoneticiTur { get; set; }
-        public string ad { get; set; }
-        public string soyad { get; set; }
-        public string kullaniciAdi { get; set; }
-        public string sifre { get; set; }
-        public string mail { get; set; }
-        public bool durum { get; set; }
+        public int YoneticiTur_ID { get; set; }
+        public string YoneticiTur { get; set; }
+        public string Isim { get; set; }
+        public string Soyisim { get; set; }
+        public string KullaniciAdi { get; set; }
+        public string Mail { get; set; }
+        public string Sifre { get; set; }
+        public bool Durum { get; set; }
+
     }
 }
